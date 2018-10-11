@@ -1,6 +1,6 @@
 # formulaWeightCalculator
 
-A monoisotopic formula weight calulator.
+A most-abundant isotope formula weight calulator.
 
 ## Implementation
 
