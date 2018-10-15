@@ -1,16 +1,16 @@
-# formulaWeightCalculator
+# exactMassCalculator
 
-A most-abundant isotope formula weight calulator.
+An exact mass calculator for molecular formulas which uses an elements most-abundant isotope for the molecules isotopic composition.
 
 ## Implementation
 
-Most-abundant isotope weight measurements from IUPAC (See IUPAC's **Atomic Weights of the Elements: Review 2000**).
+Isotope abundance and atomic mass measurements from [IUPAC-CIAWW](https://www.ciaaw.org)'s **Atomic Weights of the Elements: Review 2000**.
 
 Python Decimal objects are used to track and round significant figures properly. See [atomicWeightsDecimal](https://github.com/HegemanLab/atomicWeightsDecimal) for more info.
 
 ### Caution
 
-formulaWeightCalculator expects properly named, case-sensitive, elements.
+exactFormulaWeightCalculator expects properly named, case-sensitive, elements.
   - e.g., Copper should be labeled as `Cu`. `CU` will be calculated as a carbon (`C`) and some quantity of uranium (`U`).
 
 ## Useage
